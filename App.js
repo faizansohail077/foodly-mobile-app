@@ -2,17 +2,14 @@
 
 import React from 'react';
 import {
-  SafeAreaView,
-  Text,
-  View,
-  Platform
+  Text, Platform
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
+import { fonts } from './src/utils/typo';
 
 const App = () => {
   return (
-    <NavigationContainer>{/* Rest of your app code */}
-
+    <NavigationContainer>
       <Text>Hello {Platform.OS}</Text>
     </NavigationContainer>
   );
