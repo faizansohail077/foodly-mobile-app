@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
         height: hp(30),
         width: wd(60),
         alignSelf: 'flex-end',
-        borderBottomLeftRadius: 300
+        borderBottomLeftRadius: 1000
     },
     bottomleft: {
         backgroundColor: colors.secondaryColor,
