@@ -1,16 +1,13 @@
 
 
 import React from 'react';
-import {
-  Text, Platform
-} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import { fonts } from './src/utils/typo';
+import { StackNavigation } from './src/components';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <Text>Hello {Platform.OS}</Text>
+      <StackNavigation />
     </NavigationContainer>
   );
 };
