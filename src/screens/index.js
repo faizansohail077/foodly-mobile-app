@@ -1,8 +1,9 @@
-import SpalshScreen from "./splash";
-import SplashScreen2 from "./splash2";
 import Onboarding from "./onboarding";
+import Signup from "./signup";
+import Backbutton from "../components/button";
+
 export {
-    SpalshScreen,
-    SplashScreen2,
-    Onboarding
+    Onboarding,
+    Signup,
+    Backbutton
 }

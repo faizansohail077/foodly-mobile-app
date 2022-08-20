@@ -1,25 +1,43 @@
 import { StyleSheet } from "react-native";
-import { heightPercentageToDP, widthPercentageToDP } from "react-native-responsive-screen";
-import {colors, fonts} from '../../utils'
+import { heightPercentageToDP as hp, widthPercentageToDP as wd } from "react-native-responsive-screen";
+import { colors, fonts } from '../../utils'
+
+
 const styles = StyleSheet.create({
-    wrapper: {},
+    container: {
+        flex: 1,
+        backgroundColor: colors.white,
+        justifyContent: 'center'
+    },
+    onBoardingcontainer: {
+        height: hp(65),
+        backgroundColor: 'white',
+    },
+
     slide: {
         height: '100%',
-        alignItems: 'center',
+        width: wd(100),
+        alignItems: 'center'
     },
-
     para: {
-        fontSize: widthPercentageToDP(3.5),
+        fontSize: wd(3.5),
         fontFamily: fonts.regular,
-        color: colors.gray1
+        color: colors.gray,
+        textAlign: 'center'
+
     },
     heading: {
-        fontSize: widthPercentageToDP(9),
-        marginBottom: widthPercentageToDP(2),
+        fontSize: wd(9),
+        marginTop: wd(5),
+        marginBottom: wd(2),
         fontFamily: fonts.semiBold,
-        color: colors.black
+        color: colors.black,
+        textAlign: 'center'
+    },
+    buttonContainer: {
+        marginTop: wd(5),
+        marginHorizontal: wd(5)
     }
-
 })
 export {
     styles

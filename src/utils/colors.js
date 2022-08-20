@@ -1,11 +1,11 @@
 export const colors ={
-    black:'#1A0700',
+    black:'#010F07',
     white:'#FFFFFF',
-    mainColor:'#FF4201',
-    secondaryColor:'#FFE8E0',
-    red:'#FF0101',
-    gray1:'#9D9693',
-    gray2:'#C9C5C4',
-    gray3:'#DFDFDF',
+    mainColor:'#22A45D',
+    gray:'#868686',
+    offwhite:'#22A45D',
     background:'#F5F5F5',
+    orange:'#EF9920',
+    lightblue:'#4285F4',
+    blue:'#395998'
 }
