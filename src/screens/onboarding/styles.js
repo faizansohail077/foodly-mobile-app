@@ -6,12 +6,12 @@ import { colors, fonts } from '../../utils'
 const styles = StyleSheet.create({
     container: {
         // flex: 1,
-        height:hp(100),
+        height: hp(100),
         backgroundColor: colors.white,
         justifyContent: 'center'
     },
     onBoardingcontainer: {
-        height:Platform.OS == 'android'? hp(75):hp(65),
+        height: Platform.OS == 'android' ? hp(75) : hp(65),
         backgroundColor: 'white',
     },
 
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         height: '100%',
         width: wd(100),
         alignItems: 'center',
-        
+
     },
     para: {
         fontSize: wd(3.5),

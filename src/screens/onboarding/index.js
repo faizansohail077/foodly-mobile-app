@@ -42,7 +42,7 @@ const Onboarding = () => {
             </View>
 
             <View style={styles.buttonContainer} >
-                <Button text={'Get Started'} onPress={() => navigation.navigate('signup')} />
+                <Button text={'Get Started'} onPress={() => navigation.navigate('login')} />
             </View>
 
         </View>
