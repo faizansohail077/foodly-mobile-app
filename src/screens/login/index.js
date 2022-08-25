@@ -22,7 +22,7 @@ const Login = () => {
                 <View style={{ marginTop: wd(5) }} >
                     <Text style={styles.heading} >Welcome to</Text>
                     <Text style={styles.text} >Enter your Phone number or Email  </Text>
-                    <Text style={styles.text}>for sign in, Or <Text style={styles.subText}>Create new account. </Text></Text>
+                    <Text style={styles.text}>for sign in, Or <Text onPress={()=>navigate.navigate('signup')} style={styles.subText}>Create new account. </Text></Text>
                 </View>
 
                 <View style={{ marginTop: wd(5) }} >
@@ -37,10 +37,10 @@ const Login = () => {
                     <Button text={"SIGN IN"} />
                 </View>
                 <View style={styles.linkContainer} >
-                    <Text style={styles.links} >Don’t have account?<Text style={{ color: colors.mainColor }} > Create new account.</Text></Text>
+                    <Text onPress={()=>navigate.navigate('signup')} style={styles.links} >Don’t have account?<Text style={{ color: colors.mainColor }} > Create new account.</Text></Text>
                 </View>
 
-                <View style={styles.linkContainer} >
+                <View style={styles.orlinkContainer} >
                     <Text style={styles.links} >Or</Text>
                 </View>
 

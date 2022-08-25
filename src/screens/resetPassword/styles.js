@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     },
     heading: {
         fontSize: wd(9),
-        fontFamily: fonts.medium,
+        fontFamily: fonts.semiBold,
         color: colors.black,
         marginBottom: wd(2)
     },

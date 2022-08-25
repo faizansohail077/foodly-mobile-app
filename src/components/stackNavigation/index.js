@@ -1,6 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react'
-import { ForgotPassword, Login, Onboarding, ResetPassword, Signup } from '../../screens'
+import { ForgotPassword, Login, Onboarding, PhoneNumber, ResetPassword, Signup, VerficationCode } from '../../screens'
 import { colors } from '../../utils';
 
 const Stack = createNativeStackNavigator();
@@ -15,6 +15,8 @@ const StackNavigation = () => {
             <Stack.Screen name="login" component={Login} />
             <Stack.Screen name="fp" component={ForgotPassword} />
             <Stack.Screen name="rp" component={ResetPassword} />
+            <Stack.Screen name="pn" component={PhoneNumber} />
+            <Stack.Screen name="vc" component={VerficationCode} />
         </Stack.Navigator>
     )
 }
